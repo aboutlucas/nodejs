@@ -22,13 +22,11 @@ Precisa fazer uma rota e adicionar um view. A rota é criada no arquivo padrão 
 
 Agora que já tem a rota, precisa de um view - <i>views/helloworld.jade</i>
 
-<code>
     extends layout
     
     block content
       h1= title
       p Hello, World! Welcome to #{title}
-</code>
 
 ## Express + MongoDb
 
