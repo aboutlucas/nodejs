@@ -1,9 +1,9 @@
-# nodejs
-NodeScholl - Estudos
+# NodeJs
+### NodeScholl - Estudos
 
-# Express+Jade
+# Express + Jade
 
-## Adicionando uma página
+### Adicionando uma página
 
 Precisa fazer uma rota e adicionar um view. A rota é criada no arquivo padrão index.js
 <i>routes/index.js</i>
