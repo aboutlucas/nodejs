@@ -1,7 +1,7 @@
 # NodeJs
 ### NodeScholl - Estudos
 
-# Express + Jade
+# Express 
 
 ### Adicionando uma página
 
