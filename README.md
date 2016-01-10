@@ -9,6 +9,7 @@ Precisa fazer uma rota e adicionar um view. A rota é criada no arquivo padrão 
 
 <code>
     var express = require('express');
+    
     var router = express.Router();
     /* GET home page. */
     router.get('/', function(req, res) {
