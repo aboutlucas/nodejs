@@ -40,6 +40,7 @@ Agora que já tem a rota, precisa de um view - <i>views/helloworld.jade</i>
 <!-- C:\Program Files\MongoDB\Server\3.0\bin -->
 
 Abrir a prompt é digitar
+
 <code>
     mongod --dbpath c:\node\express_example\data\
 </code>
@@ -60,11 +61,13 @@ Apontando
 </code>
 
 Adicionando um usuário - Insert
+
 <code>
     db.usercollection.insert({ "username" : "usuario", "email" : "usuario@gmail.com" })
 </code>
 
 Localizando usuário adicionado
+
 <code>
     db.usercollection.find().pretty()
 </code>
