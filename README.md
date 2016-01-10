@@ -8,7 +8,6 @@
 Precisa fazer uma rota e adicionar um view. A rota é criada no arquivo padrão index.js - <i>routes/index.js</i>
 
 <code>
-
     var express = require('express');
     var router = express.Router();
 
@@ -26,7 +25,6 @@ Precisa fazer uma rota e adicionar um view. A rota é criada no arquivo padrão 
 Agora que já tem a rota, precisa de um view - <i>views/helloworld.jade</i>
 
 <code>
-
     extends layout
     
     block content
