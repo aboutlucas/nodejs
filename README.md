@@ -6,7 +6,9 @@
 ### Adicionando uma página
 
 Precisa fazer uma rota e adicionar um view. A rota é criada no arquivo padrão index.js - <i>routes/index.js</i>
+
 <code>
+
     var express = require('express');
     var router = express.Router();
 
