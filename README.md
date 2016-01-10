@@ -8,18 +8,10 @@
 Precisa fazer uma rota e adicionar um view. A rota é criada no arquivo padrão index.js - <i>routes/index.js</i>
 
 <code>
-    <var>var express</var> = require('express');
-    <var>var router</var> = express.Router();
-    
-    router.get('/', function(req, res) {
-        res.render('index', { title: 'Express' });
-        
-    });
     router.get('/helloworld', function(req, res) {
         res.render('helloworld', { title: 'Hello, World!' });
         
     });
-    
     module.exports = router;
 </code>
 
