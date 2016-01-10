@@ -68,7 +68,7 @@ Localizando usuário adicionado
 
 Adicionando vários usuários - array
 
-    newstuff = [{ "username" : "usuario2", "email" : "usuario2@dominio.com" }, { "username" : "usuario3", "email" :                                     "usuario3@dominio.com" }]
+    newstuff = [{ "username" : "usuario2", "email" : "usuario2@dominio.com" }, { "username" : "usuario3", "email":usuario3@dominio.com"}]
     db.usercollection.insert(newstuff);
 
 
