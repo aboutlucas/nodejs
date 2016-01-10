@@ -33,3 +33,36 @@ Agora que já tem a rota, precisa de um view - <i>views/helloworld.jade</i>
       h1= title
       p Hello, World! Welcome to #{title}
 </code>
+
+## Express + MongoDb
+
+### Comandos
+<!-- C:\Program Files\MongoDB\Server\3.0\bin -->
+
+Abrir a prompt é digitar
+<code>mongod --dbpath c:\node\express_example\data\</code>
+*** express_example - Arquivo padrão criado - porem a pasta data deve ser criada  ***
+
+Abrir uma segunda prompt de comando e digitar
+<!-- C:\MONGO\BIN\ -->
+<code>mongo</code>
+
+<strong>Mongo Console</strong>
+
+Apontando 
+<code>use express_example</code>
+
+Adicionando um usuário - Insert
+<code>db.usercollection.insert({ "username" : "usuario", "email" : "usuario@gmail.com" })</code>
+
+Localizando usuário adicionado
+<code>db.usercollection.find().pretty()</code>
+
+
+
+
+
+
+
+
+
